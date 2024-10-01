@@ -28,7 +28,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
  
     const patchFriend = async () => {
     const response = await fetch(
-      `https://juanca-mern-social-app.onrender.com/users/${_id}/${friendId}`,
+      `https://juanca-mern-social-v2.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {

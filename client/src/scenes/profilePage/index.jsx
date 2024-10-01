@@ -19,7 +19,7 @@ const ProfilePage = () => {
   const loggedInUserId = useSelector((state) => state.user);
 
   const getUser = async () => {
-    const response = await fetch(`https://juanca-mern-social-app.onrender.com/users/${userId}`, {
+    const response = await fetch(`https://juanca-mern-social-v2.onrender.com/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });

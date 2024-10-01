@@ -46,7 +46,7 @@ import {
         formData.append("picturePath", image.name);
       }
   
-      const response = await fetch(`https://juanca-mern-social-app.onrender.com/posts`, {
+      const response = await fetch(`https://juanca-mern-social-v2.onrender.com/posts`, {
         method: "POST",
         headers: { Authorization: `Bearer ${token}` },
         body: formData,

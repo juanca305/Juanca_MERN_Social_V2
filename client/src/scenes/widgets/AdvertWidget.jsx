@@ -20,7 +20,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://juanca-mern-social-app.onrender.com/assets/beatles_guitars.jpg"
+        src="https://juanca-mern-social-v2.onrender.com/assets/beatles_guitars.jpg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>

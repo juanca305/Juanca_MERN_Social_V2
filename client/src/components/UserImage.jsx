@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://juanca-mern-social-app.onrender.com/assets/${image}`}
+        src={`https://juanca-mern-social-v2.onrender.com/assets/${image}`}
       />
     </Box>
   );

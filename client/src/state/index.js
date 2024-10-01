@@ -8,7 +8,7 @@ const initialState = {
   ///****Added */
   users: [],
   //URL: "https://sociopedia-backend-f8d5.onrender.com",
-  URL: "https://juanca-mern-social-app.onrender.com",
+  URL: "https://juanca-mern-social-v2.onrender.com",
 };
 
 //REDUCERS => Basically are functions I use when I need
